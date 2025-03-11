@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+    overflow: hidden;
+}
+#homepage{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(medi/WhatsApp\ Image\ 2025-03-07\ at\ 12.46.09\ PM.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#homepage h1{
+    background-color: rgba(186, 186, 210, 0.655);
+    height: 90px;
+    width: 250px;
+    text-align: center;
+    padding: 9px;
+    border-radius: 7px;
+    font-family: "Creepster";
+    font-size: 70px;
+    color: rgb(47, 47, 71);
+    box-shadow: 4px 0 6px 7px;
+
+
+
+
+}
+#homepage a{
+    text-decoration: none;
+    color: rgb(75, 75, 137);
+    background-color: rgb(186, 186, 219);
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family: "Creepster";
+    box-shadow: 4px 0 6px 7px;
+    animation: shake 0.3s infinite;
+
+}
+p{
+    margin: -60px;
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+@keyframes shake {
+0%{transform: translate(0) translateY(2px);
+}
+25%{transform: translate(2px) translateY(-2px);}
+50%{transform: translate(-2px) translateY(2px);}
+75%{
+    transform: translate(2px) translateY(-2px);
+}
+100%{
+    transform: translate(-2px) translateY(2px);
+}
+}
+#gamepage{
+    
+}

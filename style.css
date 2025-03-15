@@ -69,5 +69,75 @@ p{
 }
 }
 #gamepage{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(medi/4455.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zombie{
+    height: 60px;
+    width: 50px;
+    background-image: url(medi/zombie\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: 5s linear;
+}
+
+#popup{
+    height: 100px;
+    width: 170px;
+    border-radius: 5px;
+    /* position: absolute; */
+    box-shadow: 0 0 10px;
+    background-color: rgb(48, 47, 47);
+    color: rgb(193, 142, 70);
+    display: none;
+    z-index: 1;    
+}
+/* #popup a button{
+    margin: 8px;
+   height: 30px;
+   width: 50px;
+   border-radius: 6px;
+   border: none;
+   background-color: rgb(157, 126, 60);
+   cursor: pointer;
+}
+#popup button{
+    margin: 8px;
+
+    height: 30px;
+    width: 50px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(157, 126, 60);
+    cursor: pointer;
+} */
+
+#txt{
+  text-align: center;
+   font-weight: bold;
+   font-family: "Creepster";
+
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100%; */
+    margin-top: 28px;
     
+}
+.icon a svg{
+    height:50px;
+    width: 50px;
+    fill: rgb(216, 166, 73);
+    padding: 7px;
+    background-color: #fff;
+    border-radius: 5px;
 }
